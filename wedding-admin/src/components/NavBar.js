@@ -22,9 +22,9 @@ const Navbar = () => {
             </NavLink>
           </div>
           <div>
-            <NavLink exact to="/register" activeClassName="activeNavButton">
+            {/* <NavLink exact to="/register" activeClassName="activeNavButton">
               Register
-            </NavLink>
+            </NavLink> */}
           </div>
         </>
       ) : (

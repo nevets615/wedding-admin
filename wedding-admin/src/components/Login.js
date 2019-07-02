@@ -14,7 +14,7 @@ class Login extends Component {
   handleLogin = e => {
     e.preventDefault();
     axios
-      .post("https://shielded-anchorage-68840.herokuapp.com/login", {
+      .post("https://shielded-anchorage-68840.herokuapp.com/loginAdmin", {
         username: this.state.username,
         password: this.state.password
       })
@@ -35,7 +35,7 @@ class Login extends Component {
   render() {
     return (
       <div>
-        <h4>Be sure to Register before Login</h4>
+        <h4>Admin Login</h4>
 
         <form onSubmit={this.handleLogin}>
           <input

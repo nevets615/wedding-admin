@@ -24,7 +24,7 @@ class GuestList extends React.Component {
         })
         .then(res => {
           console.log(res.data);
-          this.setState({ articles: res.data });
+          this.setState({ guests: res.data });
           console.log(this.state);
         })
         .catch(err => {
@@ -72,8 +72,7 @@ class GuestList extends React.Component {
         ) : (
           <div>
             <h3>
-              Please Register and then Login. Once you have logged in there will
-              be a simple form to fill out about your visit
+            Administrative Function for Kayla and Steven's Wedding Site. Owner use only.
             </h3>
           </div>
         )}

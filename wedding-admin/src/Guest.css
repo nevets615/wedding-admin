@@ -10,6 +10,7 @@
     background-color:rgb(218, 230, 226);
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
   }
   
   .Forms {
@@ -60,4 +61,11 @@
     padding: 50px 0;
     height: 350px;
     width: 350px;
+  }
+
+  .guest-wrap{
+   border: 1px solid black;
+   padding: 5px;
+   margin: 10px;
+   background-color: rgb(147, 185, 164);
   }

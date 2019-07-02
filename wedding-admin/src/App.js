@@ -3,7 +3,7 @@ import React, { Component } from "react";
 import GuestList from "./components/GuestList";
 import { Route } from "react-router-dom";
 import Login from "./components/Login";
-import Register from "./components/Register";
+// import Register from "./components/Register";
 import NavBar from "./components/NavBar";
 
 class App extends Component {
@@ -27,7 +27,7 @@ class App extends Component {
         
         </div>
         <Route path="/login" component={Login} />
-        <Route path="/register" render={props => <Register {...props} />} />
+        {/* <Route path="/register" render={props => <Register {...props} />} /> */}
         <Route exact path="/" render={() => <GuestList />} />
       </div>
     );
